@@ -17,6 +17,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import static maes.tech.intentanim.CustomIntent.customType;
+
 ///import static maes.tech.intentanim.CustomIntent.customType;
 
 public class RegisterActivity extends AppCompatActivity {
@@ -77,7 +79,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     public void Login(View view) {
         startActivity(new Intent(RegisterActivity.this, MainActivity.class));
-   //     customType(RegisterActivity.this, "bottom-to-top");
+        customType(RegisterActivity.this, "bottom-to-top");
 
 //        *left-to-right
 //                *right-to-left

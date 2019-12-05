@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import com.ghuroba.carecardia.R;
 
-//import static maes.tech.intentanim.CustomIntent.customType;
+import static maes.tech.intentanim.CustomIntent.customType;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -103,6 +103,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void Register(View view) {
         startActivity(new Intent(MainActivity.this, RegisterActivity.class));
-      //  customType(MainActivity.this, "bottom-to-up");
+        customType(MainActivity.this, "bottom-to-up");
     }
 }
